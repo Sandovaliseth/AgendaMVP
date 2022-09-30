@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+
+    <!--Boton para crear la base de datos y tablas vacias
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:text="CREAR BASE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    -->
+
+    //Listar o mostrar los datos registrados o modificados en la base de datos
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

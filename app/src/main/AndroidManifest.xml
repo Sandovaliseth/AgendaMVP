@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crud">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUD">
+        <activity
+            android:name=".View.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.RegistrarActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".View.NuevoActivity"
+            android:exported="true"
+            android:parentActivityName=".View.MainActivity">
+            /*Devolver a otra pagina o flecha en el menu para devolverse a otra pestaña*/
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.MainActivity" />
+        </activity>
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".View.VerActivity"
+            android:exported="true"
+            android:parentActivityName=".View.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.MainActivity" />
+        </activity>
+        <activity
+            android:name=".View.EditarActivity"
+            android:parentActivityName=".View.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

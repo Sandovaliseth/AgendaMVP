@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="btn_guardar">Guardar registro</string>
+    <string name="btnRegistrar">Guardar registro</string>
+    <string name="btnIniciar">Iniciar Sesion</string>
+    <string name="Registrar">Crear cuenta</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+</resources>

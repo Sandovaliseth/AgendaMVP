@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.google.android.material.timepicker.MaterialTimePicker android.util.Pair&lt;java.lang.Integer,java.lang.Integer&gt; dataForMode(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.MaterialTimePicker inputMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.MaterialTimePicker int getInputMode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.MaterialTimePicker.Builder com.google.android.material.timepicker.MaterialTimePicker.Builder setInputMode(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_CLOCK, com.google.android.material.timepicker.MaterialTimePicker.INPUT_MODE_KEYBOARD}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.MaterialTimePicker.Builder com.google.android.material.timepicker.MaterialTimePicker.Builder setTimeFormat(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeFormat">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel TimeModel(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel TimeModel(int, int, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel TimeModel(int, int, int, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel format">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.timepicker.TimeFormat.CLOCK_12H, com.google.android.material.timepicker.TimeFormat.CLOCK_24H}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel int getPeriod(int)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel period">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel selection">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimeModel void setPeriod(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerClockPresenter void setSelection(int, boolean) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerControls void setActiveSelection(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerControls void updateTime(int, int, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerControls.ActiveSelection">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.MINUTE, java.util.Calendar.HOUR}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerControls.ClockPeriod">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{java.util.Calendar.AM, java.util.Calendar.PM}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.timepicker.TimePickerTextInputKeyController void moveSele

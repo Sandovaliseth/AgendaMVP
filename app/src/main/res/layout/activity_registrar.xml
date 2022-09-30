@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    tools:context=".View.RegistrarActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/txtNombreU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NOMBRE"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtApellidoU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="APELLIDO"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CORREO ELECTRONICO"
+        android:inputType="textEmailAddress"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CONTRASENA"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegistrar" />
+
+</LinearLayout>

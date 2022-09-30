@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <item name="android.service.controls.actions.ControlAction RESPONSE_CHALLENGE_ACK">
+        <annotation name="androidx.annotation.IntDef">
+            <val
+                name="value"
+                val="{android.service.controls.actions.ControlAction.RESPONSE_UNKNOWN, android.service.controls.actions.ControlAction.RESPONSE_OK, android.service.controls.actions.ControlAction.RESPONSE_FAIL, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_ACK, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_PIN, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_PASSPHRASE}" />
+        </annotation>
+    </item>
+    <item name="android.service.controls.actions.ControlAction RESPONSE_CHALLENGE_PASSPHRASE">
+        <annotation name="androidx.annotation.IntDef">
+            <val
+                name="value"
+                val="{android.service.controls.actions.ControlAction.RESPONSE_UNKNOWN, android.service.controls.actions.ControlAction.RESPONSE_OK, android.service.controls.actions.ControlAction.RESPONSE_FAIL, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_ACK, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_PIN, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_PASSPHRASE}" />
+        </annotation>
+    </item>
+    <item name="android.service.controls.actions.ControlAction RESPONSE_CHALLENGE_PIN">
+        <annotation name="androidx.annotation.IntDef">
+            <val
+                name="value"
+                val="{android.service.controls.actions.ControlAction.RESPONSE_UNKNOWN, android.service.controls.actions.ControlAction.RESPONSE_OK, android.service.controls.actions.ControlAction.RESPONSE_FAIL, android.service.controls.actions.ControlAction.RESPONSE_CHALLENGE_ACK, android.service.con" />
+        </annotation>
+    </item>
+</root>

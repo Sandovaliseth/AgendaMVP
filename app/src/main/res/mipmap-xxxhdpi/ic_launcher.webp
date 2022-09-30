@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.database.ContentObserver void dispatchChange(boolean, android.net.Uri, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />
+    </annotation>
+  </item>
+  <item name="android.database.ContentObserver void dispatchChange(boolean, java.util.Collection<android.net.Uri>, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />
+    </annotation>
+  </item>
+  <item name="android.database.ContentObserver void onChange(boolean, android.net.Uri, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />
+    </annotation>
+  </item>
+  <item name="android.database.ContentObserver void onChange(boolean, java.util.Collection<android.net.Uri>, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor boolean isNull(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor boolean moveToPosition(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor byte[] getBlob(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor double getDouble(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor float getFloat(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor int getColumnCount()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor int getColumnIndex(java.lang.String)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor int getColumnIndexOrThrow(java.lang.String)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor int getCount()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.database.Cursor int getInt(int) 0">
+    <a

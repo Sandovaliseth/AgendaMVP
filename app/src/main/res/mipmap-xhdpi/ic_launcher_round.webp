@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.bluetooth.BluetoothA2dp ACTION_CONNECTION_STATE_CHANGED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothA2dp ACTION_PLAYING_STATE_CHANGED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothA2dp boolean isA2dpPlaying(android.bluetooth.BluetoothDevice)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothA2dp int getConnectionState(android.bluetooth.BluetoothDevice)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.bluetooth.BluetoothProfile.STATE_DISCONNECTED, android.bluetooth.BluetoothProfile.STATE_CONNECTING, android.bluetooth.BluetoothProfile.STATE_CONNECTED, android.bluetooth.BluetoothProfile.STATE_DISCONNECTING}" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothA2dp java.util.List&lt;android.bluetooth.BluetoothDevice&gt; getConnectedDevices()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothA2dp java.util.List&lt;android.bluetooth.BluetoothDevice&gt; getDevicesMatchingConnectionStates(int[])">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_CONNECTION_STATE_CHANGED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_DISCOVERY_FINISHED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_SCAN&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_DISCOVERY_STARTED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_SCAN&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_LOCAL_NAME_CHANGED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_REQUEST_DISCOVERABLE">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_ADVERTISE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_REQUEST_ENABLE">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_CONNECT&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter ACTION_SCAN_MODE_CHANGED">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.BLUETOOTH_SCAN&quot;" />
+    </annotation>
+  </item>
+  <item name="android.bluetooth.BluetoothAdapter android.bluetooth.BluetoothServerSocket listenUsingInsecureL2capChannel()">
+    <
